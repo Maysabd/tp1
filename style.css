@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(assets/Background.png);
+    font-family: 'WorkSans', sans-serif;
+    color: gray;
+}
+.container{
+    margin: auto;
+    margin-top:5rem ;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.container .title{
+    padding: 2rem;
+    background-color: rgb(71, 71, 253);
+    background-image: url(assets/Pattern.png);
+    color: white;
+}
+.container .context{
+    background-color: white;
+    padding: 1rem;
+}
+.container .context input[type="text"]{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container .context button{
+    width: 6rem;
+    background-color: rgb(56, 56, 250);
+    color: white;
+    padding: 1rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+
+
+}
+.container .context .group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.container .context .group .img_f img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+      width: 100%;
+    }
+  }
